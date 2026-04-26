@@ -65,12 +65,12 @@ export default function Header({ currentPage, onMenuClick, onNavigate }: HeaderP
   };
 
   return (
-    <header className="h-16 bg-white border-b border-gray-100 flex items-center px-4 lg:px-6 gap-4 sticky top-0 z-30">
+    <header className="min-h-16 bg-white border-b border-gray-100 flex items-center px-4 lg:px-6 gap-4 sticky top-0 z-30 pt-safe">
       <button
         onClick={onMenuClick}
-        className="lg:hidden p-2 rounded-lg hover:bg-gray-100 text-gray-600"
+        className="lg:hidden p-2.5 rounded-lg hover:bg-gray-100 text-gray-600 touch-manipulation"
       >
-        <Menu className="w-5 h-5" />
+        <Menu className="w-6 h-6" />
       </button>
 
       <div className="flex-1 min-w-0">
