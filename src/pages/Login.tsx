@@ -4,8 +4,8 @@ import { useAuth } from '../contexts/AuthContext';
 
 export default function Login() {
   const { login, isLoading } = useAuth();
-  const [email, setEmail] = useState('moussa.diallo@joj2026.sn');
-  const [password, setPassword] = useState('admin2026');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState('');
 
@@ -144,12 +144,6 @@ export default function Login() {
               )}
             </button>
           </form>
-
-          <div className="mt-8 p-4 rounded-xl bg-green-50 border border-green-100">
-            <p className="text-xs text-green-700 font-medium mb-1">Accès démo</p>
-            <p className="text-xs text-green-600">Email: moussa.diallo@joj2026.sn</p>
-            <p className="text-xs text-green-600">Mot de passe: admin2026</p>
-          </div>
 
           <div className="mt-8 flex items-center justify-center gap-2">
             <div className="w-5 h-1.5 rounded-full bg-green-600" />
