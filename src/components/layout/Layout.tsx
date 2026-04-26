@@ -14,7 +14,7 @@ export default function Layout({ currentPage, onNavigate, children }: LayoutProp
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <div className="flex h-screen bg-sand-50 overflow-hidden">
+    <div className="flex h-screen bg-gradient-to-br from-green-900 via-green-800 to-green-900 overflow-hidden">
       <Sidebar
         currentPage={currentPage}
         onNavigate={onNavigate}
