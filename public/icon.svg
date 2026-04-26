@@ -1,0 +1,13 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond vert JOJ -->
+  <rect width="512" height="512" rx="128" fill="#006B3C"/>
+  
+  <!-- Bouclier central -->
+  <path d="M256 96L160 144V240C160 304 192 368 256 416C320 368 352 304 352 240V144L256 96Z" fill="#D4AF37" stroke="#FFFFFF" stroke-width="8"/>
+  
+  <!-- Texte JOJ -->
+  <text x="256" y="260" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#006B3C" text-anchor="middle">JOJ</text>
+  
+  <!-- Année 2026 -->
+  <text x="256" y="310" font-family="Arial, sans-serif" font-size="32" font-weight="600" fill="#006B3C" text-anchor="middle">2026</text>
+</svg>
