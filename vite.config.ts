@@ -14,7 +14,7 @@ export default defineConfig({
         short_name: 'JOJ OPS',
         description: 'Plateforme de gestion opérationnelle des Jeux Olympiques de la Jeunesse Dakar 2026',
         theme_color: '#006B3C',
-        background_color: '#ffffff',
+        background_color: '#006B3C',
         display: 'standalone',
         orientation: 'portrait',
         scope: '/',

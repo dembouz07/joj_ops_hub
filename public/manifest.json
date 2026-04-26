@@ -23,6 +23,8 @@
     }
   ],
   "categories": ["business", "productivity"],
+  "background_color": "#006B3C",
+  "theme_color": "#006B3C",
   "shortcuts": [
     {
       "name": "Tableau de bord",
